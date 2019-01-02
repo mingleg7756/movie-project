@@ -18,22 +18,38 @@ body {
 div.summary {
     font-size: 20px;
 }
-
-.row::after {
-    content:"";
-    clear:both;
-    display:table;
+div.row {
+    font-size: 20px;
 }
-
-.row {
-    position: relative;
-    left: 220px;
+/*.row::after {*/
+/*    content:"";*/
+/*    clear:both;*/
+/*    display:table;*/
+/*}*/
 }
 .column {
-    float: left;
-    padding: 5px;
+/*    float: left;*/
+/*    padding: 5px;*/
 }
-
+.row {
+    border: red solid 1px;
+    padding:90px;
+    margin: auto;
+}
+.ming {
+    float: left;
+    width:100px;
+    height: 100px;
+    position:relative;
+    bottom: 100px;
+}
+.felix {
+    float: right;
+    width: 100px;
+    height:100px;
+    position:relative;
+    bottom: 100px;
+}
 .title {
     text-align:center;
 }
@@ -61,5 +77,9 @@ div.summary {
     color:red;
     border-radius: 10px;
 }
-
+#actors {
+    text-align: center;
+    position:relative;
+    bottom:100px;
+}
 
