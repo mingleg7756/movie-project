@@ -14,8 +14,24 @@ p {
 body {
     /*background-color: red;*/
 }
+
 div.summary {
     font-size: 20px;
+}
+
+.row::after {
+    content:"";
+    clear:both;
+    display:table;
+}
+
+.row {
+    position: relative;
+    left: 220px;
+}
+.column {
+    float: left;
+    padding: 5px;
 }
 
 .title {
@@ -45,4 +61,5 @@ div.summary {
     color:red;
     border-radius: 10px;
 }
+
 
