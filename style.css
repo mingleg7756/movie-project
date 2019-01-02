@@ -82,4 +82,11 @@ div.row {
     position:relative;
     bottom:100px;
 }
-
+.name1{
+    position: absolute;
+    left: 125px;
+}
+.name2{
+    position: absolute;
+    right: 125px;
+}
